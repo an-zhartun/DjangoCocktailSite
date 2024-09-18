@@ -38,4 +38,41 @@ Once the application is running, you can register and log in to access the full 
 - **Updating and Archiving**: The owner of a recipe can update and archive their cocktails.
 - **Adding to Favorites**: Any user can add a liked cocktail to their favorites.
 - **Comments**: Users can comment on cocktails, reply to comments, and delete them.
+<br><br><br>
 
+# Instructions for running the project
+## Steps to run the project
+
+### 1. Cloning the repository
+Clone the repository using the Git command:
+
+```bash
+git clone https://github.com/an-zhartun/DjangoCocktailSite.git
+```
+### 2. Building Docker containers
+```bash
+docker-compose build
+```
+
+### 3. Starting the containers
+```bash
+docker-compose up
+```
+If you need to run the containers in the background, use the command:
+
+```bash
+docker-compose up -d
+```
+
+### 4. Opening the application
+
+After the project has been successfully launched, the application will be available at the following address:
+
+```bash
+http://localhost:8000
+```
+### 5. Stopping the containers
+```bash
+docker-compose down
+```
+This command will stop all running containers and remove them, while preserving any data created in persistent storage (volumes).
