@@ -76,3 +76,58 @@ http://localhost:8000
 docker-compose down
 ```
 This command will stop all running containers and remove them, while preserving any data created in persistent storage (volumes).
+
+<br><br>
+
+## Screenshots
+
+### 1. Home Page before Authentication:
+This is the home page of the web application, available to unauthenticated users. Sections such as "Home", "Cocktails", and "Login" are visible. This is the basic functionality accessible to all visitors.
+![Home1](https://github.com/an-zhartun/an-zhartun/blob/images/images/Главная1.png?raw=true)
+
+### 2. Login and Registration Page:
+These are the login and registration forms, where users can either register to create a new account or log in with an existing account.
+![Login](https://github.com/an-zhartun/an-zhartun/blob/images/images/вход.png?raw=true)
+![Registration](https://github.com/an-zhartun/an-zhartun/blob/images/images/регистрация.png?raw=true)
+
+### 3. Home Page after Authentication:
+This shows how the interface changes after the user logs in. Additional sections such as "Create Cocktail", "My Cocktails", "Favorites", and a "Logout" button are now available.
+![Home2](https://github.com/an-zhartun/an-zhartun/blob/images/images/Главная6.png?raw=true)
+
+### 4. Cocktails Page:
+This page displays a list of all cocktails. Users can view cocktail cards, filter them by name and type (alcoholic/non-alcoholic). By hovering over a cocktail card, users can update the recipe or add it to their favorites.
+![Cocktails](https://github.com/an-zhartun/an-zhartun/blob/images/images/список2.png?raw=true)
+
+### 5. Creating a Cocktail:
+This is the form for creating a new cocktail. The user can select a category, fill in the necessary fields, and upload an image either from a computer or via a link to add a new recipe to the database.
+![Creating](https://github.com/an-zhartun/an-zhartun/blob/images/images/создание.png?raw=true)
+
+### 6. Updating a Cocktail:
+This form shows how an existing cocktail can be updated by changing the information about its ingredients, preparation method, or image.
+![Updating](https://github.com/an-zhartun/an-zhartun/blob/images/images/обновление.png?raw=true)
+
+### 7. My Cocktails:
+The "My Cocktails" page displays a list of all recipes created by the user. Users can archive or edit their cocktails here.
+![MyCocktails](https://github.com/zenastyaz/Private/raw/main/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-05-11%20%D0%B2%2017.19.19.png?raw=true)
+
+### 8. Favorites:
+This page shows how cocktails added to the user's favorites are displayed. Users can easily view and manage their favorite recipes.
+![Favorites](https://github.com/an-zhartun/an-zhartun/blob/images/images/избранное.png?raw=true)
+
+### 9. Cocktail Detail Page:
+The detailed cocktail page shows the full description of the cocktail, including ingredients, preparation method, and the option to add it to favorites. Comment management functions are also available.
+![Detail](https://github.com/zenastyaz/Private/raw/main/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-05-11%20%D0%B2%2018.01.50.png?raw=true)
+
+### 10. Comment Form:
+This screenshot shows how users can leave comments on cocktail recipes. The form allows users to write and submit a comment.
+![Comment Form](https://github.com/an-zhartun/an-zhartun/blob/images/images/Формакоммент.png?raw=true)
+
+### 11. Comment and Reply Form Screenshot:
+This screenshot shows a comment added to a cocktail, with a visible reply form.
+![Comment Form2](https://github.com/an-zhartun/an-zhartun/blob/images/images/коммент%20.png?raw=true)
+
+### 12. Child Comment:
+This screenshot displays a child (reply) comment that a user left in response to the main comment.
+![Comment Form3](https://github.com/zenastyaz/Private/raw/main/images/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202024-05-11%20%D0%B2%2017.22.30.png?raw=true)
+
+These screenshots help better understand how the web application's functionality works at each stage of user interaction.
