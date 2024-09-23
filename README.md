@@ -76,6 +76,7 @@ http://localhost:8000
 docker-compose down
 ```
 This command will stop all running containers and remove them, while preserving any data created in persistent storage (volumes).
+#### To run the project, it is necessary to create a .env file.
 
 <br><br>
 
